@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 引入echarts
+import echarts from 'echarts'
 
 Vue.config.productionTip = false
+Vue.prototype.$echarts = echarts 
 
 // 2.1 导入 vue-resource
 import VueResource from 'vue-resource'
